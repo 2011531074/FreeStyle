@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC392B61859714D007C56C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC392B51859714D007C56C4 /* UIKit.framework */; };
+		ECC392B81859714D007C56C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC392B71859714D007C56C4 /* Foundation.framework */; };
+		ECC392BA1859714D007C56C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC392B91859714D007C56C4 /* CoreGraphics.framework */; };
+		ECC392C01859714D007C56C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECC392BE1859714D007C56C4 /* InfoPlist.strings */; };
+		ECC392C21859714D007C56C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC392C11859714D007C56C4 /* main.m */; };
+		ECC392C61859714D007C56C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC392C51859714D007C56C4 /* AppDelegate.m */; };
+		ECC392C81859714D007C56C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC392C71859714D007C56C4 /* Default.png */; };
+		ECC392CA1859714D007C56C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC392C91859714D007C56C4 /* Default@2x.png */; };
+		ECC392CC1859714D007C56C4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC392CB1859714D007C56C4 /* Default-568h@2x.png */; };
+		ECC392CF1859714D007C56C4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC392CD1859714D007C56C4 /* MainStoryboard.storyboard */; };
+		ECC392D21859714D007C56C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC392D11859714D007C56C4 /* ViewController.m */; };
+		ECC392DA1859714D007C56C4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC392D91859714D007C56C4 /* SenTestingKit.framework */; };
+		ECC392DB1859714D007C56C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC392B51859714D007C56C4 /* UIKit.framework */; };
+		ECC392DC1859714D007C56C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC392B71859714D007C56C4 /* Foundation.framework */; };
+		ECC392E41859714E007C56C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECC392E21859714E007C56C4 /* InfoPlist.strings */; };
+		ECC392E71859714E007C56C4 /* syougiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC392E61859714E007C56C4 /* syougiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC392DD1859714D007C56C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC392AA1859714D007C56C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC392B11859714D007C56C4;
+			remoteInfo = syougi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC392B21859714D007C56C4 /* syougi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syougi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC392B51859714D007C56C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECC392B71859714D007C56C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECC392B91859714D007C56C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECC392BD1859714D007C56C4 /* syougi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "syougi-Info.plist"; sourceTree = "<group>"; };
+		ECC392BF1859714D007C56C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECC392C11859714D007C56C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECC392C31859714D007C56C4 /* syougi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "syougi-Prefix.pch"; sourceTree = "<group>"; };
+		ECC392C41859714D007C56C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECC392C51859714D007C56C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECC392C71859714D007C56C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ECC392C91859714D007C56C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ECC392CB1859714D007C56C4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ECC392CE1859714D007C56C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ECC392D01859714D007C56C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECC392D11859714D007C56C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECC392D81859714D007C56C4 /* syougiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = syougiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC392D91859714D007C56C4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ECC392E11859714E007C56C4 /* syougiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "syougiTests-Info.plist"; sourceTree = "<group>"; };
+		ECC392E31859714E007C56C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECC392E51859714E007C56C4 /* syougiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = syougiTests.h; sourceTree = "<group>"; };
+		ECC392E61859714E007C56C4 /* syougiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = syougiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC392AF1859714D007C56C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC392B61859714D007C56C4 /* UIKit.framework in Frameworks */,
+				ECC392B81859714D007C56C4 /* Foundation.framework in Frameworks */,
+				ECC392BA1859714D007C56C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC392D41859714D007C56C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC392DA1859714D007C56C4 /* SenTestingKit.framework in Frameworks */,
+				ECC392DB1859714D007C56C4 /* UIKit.framework in Frameworks */,
+				ECC392DC1859714D007C56C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC392A91859714D007C56C4 = {
+			isa = PBXGroup;
+			children = (
+				ECC392BB1859714D007C56C4 /* syougi */,
+				ECC392DF1859714D007C56C4 /* syougiTests */,
+				ECC392B41859714D007C56C4 /* Frameworks */,
+				ECC392B31859714D007C56C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC392B31859714D007C56C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC392B21859714D007C56C4 /* syougi.app */,
+				ECC392D81859714D007C56C4 /* syougiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC392B41859714D007C56C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECC392B51859714D007C56C4 /* UIKit.framework */,
+				ECC392B71859714D007C56C4 /* Foundation.framework */,
+				ECC392B91859714D007C56C4 /* CoreGraphics.framework */,
+				ECC392D91859714D007C56C4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECC392BB1859714D007C56C4 /* syougi */ = {
+			isa = PBXGroup;
+			children = (
+				ECC392C41859714D007C56C4 /* AppDelegate.h */,
+				ECC392C51859714D007C56C4 /* AppDelegate.m */,
+				ECC392CD1859714D007C56C4 /* MainStoryboard.storyboard */,
+				ECC392D01859714D007C56C4 /* ViewController.h */,
+				ECC392D11859714D007C56C4 /* ViewController.m */,
+				ECC392BC1859714D007C56C4 /* Supporting Files */,
+			);
+			path = syougi;
+			sourceTree = "<group>";
+		};
+		ECC392BC1859714D007C56C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC392BD1859714D007C56C4 /* syougi-Info.plist */,
+				ECC392BE1859714D007C56C4 /* InfoPlist.strings */,
+				ECC392C11859714D007C56C4 /* main.m */,
+				ECC392C31859714D007C56C4 /* syougi-Prefix.pch */,
+				ECC392C71859714D007C56C4 /* Default.png */,
+				ECC392C91859714D007C56C4 /* Default@2x.png */,
+				ECC392CB1859714D007C56C4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECC392DF1859714D007C56C4 /* syougiTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC392E51859714E007C56C4 /* syougiTests.h */,
+				ECC392E61859714E007C56C4 /* syougiTests.m */,
+				ECC392E01859714D007C56C4 /* Supporting Files */,
+			);
+			path = syougiTests;
+			sourceTree = "<group>";
+		};
+		ECC392E01859714D007C56C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC392E11859714E007C56C4 /* syougiTests-Info.plist */,
+				ECC392E21859714E007C56C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC392B11859714D007C56C4 /* syougi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC392EA1859714E007C56C4 /* Build configuration list for PBXNativeTarget "syougi" */;
+			buildPhases = (
+				ECC392AE1859714D007C56C4 /* Sources */,
+				ECC392AF1859714D007C56C4 /* Frameworks */,
+				ECC392B01859714D007C56C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = syougi;
+			productName = syougi;
+			productReference = ECC392B21859714D007C56C4 /* syougi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC392D71859714D007C56C4 /* syougiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC392ED1859714E007C56C4 /* Build configuration list for PBXNativeTarget "syougiTests" */;
+			buildPhases = (
+				ECC392D31859714D007C56C4 /* Sources */,
+				ECC392D41859714D007C56C4 /* Frameworks */,
+				ECC392D51859714D007C56C4 /* Resources */,
+				ECC392D61859714D007C56C4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC392DE1859714D007C56C4 /* PBXTargetDependency */,
+			);
+			name = syougiTests;
+			productName = syougiTests;
+			productReference = ECC392D81859714D007C56C4 /* syougiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC392AA1859714D007C56C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "university of kitakyu";
+			};
+			buildConfigurationList = ECC392AD1859714D007C56C4 /* Build configuration list for PBXProject "syougi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECC392A91859714D007C56C4;
+			productRefGroup = ECC392B31859714D007C56C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC392B11859714D007C56C4 /* syougi */,
+				ECC392D71859714D007C56C4 /* syougiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC392B01859714D007C56C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC392C01859714D007C56C4 /* InfoPlist.strings in Resources */,
+				ECC392C81859714D007C56C4 /* Default.png in Resources */,
+				ECC392CA1859714D007C56C4 /* Default@2x.png in Resources */,
+				ECC392CC1859714D007C56C4 /* Default-568h@2x.png in Resources */,
+				ECC392CF1859714D007C56C4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC392D51859714D007C56C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC392E41859714E007C56C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ECC392D61859714D007C56C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC392AE1859714D007C56C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC392C21859714D007C56C4 /* main.m in Sources */,
+				ECC392C61859714D007C56C4 /* AppDelegate.m in Sources */,
+				ECC392D21859714D007C56C4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC392D31859714D007C56C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC392E71859714E007C56C4 /* syougiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC392DE1859714D007C56C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC392B11859714D007C56C4 /* syougi */;
+			targetProxy = ECC392DD1859714D007C56C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC392BE1859714D007C56C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC392BF1859714D007C56C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECC392CD1859714D007C56C4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC392CE1859714D007C56C4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC392E21859714E007C56C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC392E31859714E007C56C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC392E81859714E007C56C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECC392E91859714E007C56C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC392EB1859714E007C56C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "syougi/syougi-Prefix.pch";
+				INFOPLIST_FILE = "syougi/syougi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECC392EC1859714E007C56C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "syougi/syougi-Prefix.pch";
+				INFOPLIST_FILE = "syougi/syougi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECC392EE1859714E007C56C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/syougi.app/syougi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "syougi/syougi-Prefix.pch";
+				INFOPLIST_FILE = "syougiTests/syougiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ECC392EF1859714E007C56C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/syougi.app/syougi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "syougi/syougi-Prefix.pch";
+				INFOPLIST_FILE = "syougiTests/syougiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC392AD1859714D007C56C4 /* Build configuration list for PBXProject "syougi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC392E81859714E007C56C4 /* Debug */,
+				ECC392E91859714E007C56C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC392EA1859714E007C56C4 /* Build configuration list for PBXNativeTarget "syougi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC392EB1859714E007C56C4 /* Debug */,
+				ECC392EC1859714E007C56C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECC392ED1859714E007C56C4 /* Build configuration list for PBXNativeTarget "syougiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC392EE1859714E007C56C4 /* Debug */,
+				ECC392EF1859714E007C56C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC392AA1859714D007C56C4 /* Project object */;
+}

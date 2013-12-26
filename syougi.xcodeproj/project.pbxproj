@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECA2D9F2186BED990018DE53 /* Hu.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA2D9F0186BED990018DE53 /* Hu.png */; };
+		ECA2D9F4186BF0290018DE53 /* syougi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECA2D9F3186BF0290018DE53 /* syougi.jpg */; };
+		ECA2D9F6186BF37C0018DE53 /* To.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA2D9F5186BF37C0018DE53 /* To.png */; };
+		ECA2D9F8186C08ED0018DE53 /* Unknown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECA2D9F7186C08ED0018DE53 /* Unknown.jpg */; };
 		ECC392B61859714D007C56C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC392B51859714D007C56C4 /* UIKit.framework */; };
 		ECC392B81859714D007C56C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC392B71859714D007C56C4 /* Foundation.framework */; };
 		ECC392BA1859714D007C56C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC392B91859714D007C56C4 /* CoreGraphics.framework */; };
@@ -23,6 +27,8 @@
 		ECC392DC1859714D007C56C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC392B71859714D007C56C4 /* Foundation.framework */; };
 		ECC392E41859714E007C56C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECC392E21859714E007C56C4 /* InfoPlist.strings */; };
 		ECC392E71859714E007C56C4 /* syougiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC392E61859714E007C56C4 /* syougiTests.m */; };
+		ECC392F118597450007C56C4 /* 将棋盤.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC392F018597450007C56C4 /* 将棋盤.png */; };
+		ECC392F31859864A007C56C4 /* ばん.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC392F21859864A007C56C4 /* ばん.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ECA2D9F0186BED990018DE53 /* Hu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hu.png; sourceTree = "<group>"; };
+		ECA2D9F3186BF0290018DE53 /* syougi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = syougi.jpg; sourceTree = "<group>"; };
+		ECA2D9F5186BF37C0018DE53 /* To.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = To.png; sourceTree = "<group>"; };
+		ECA2D9F7186C08ED0018DE53 /* Unknown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpg; sourceTree = "<group>"; };
 		ECC392B21859714D007C56C4 /* syougi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syougi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC392B51859714D007C56C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ECC392B71859714D007C56C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +68,8 @@
 		ECC392E31859714E007C56C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ECC392E51859714E007C56C4 /* syougiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = syougiTests.h; sourceTree = "<group>"; };
 		ECC392E61859714E007C56C4 /* syougiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = syougiTests.m; sourceTree = "<group>"; };
+		ECC392F018597450007C56C4 /* 将棋盤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "将棋盤.png"; sourceTree = "<group>"; };
+		ECC392F21859864A007C56C4 /* ばん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ばん.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,11 @@
 		ECC392BB1859714D007C56C4 /* syougi */ = {
 			isa = PBXGroup;
 			children = (
+				ECC392F21859864A007C56C4 /* ばん.png */,
+				ECA2D9F5186BF37C0018DE53 /* To.png */,
+				ECA2D9F3186BF0290018DE53 /* syougi.jpg */,
+				ECC392F018597450007C56C4 /* 将棋盤.png */,
+				ECA2D9F0186BED990018DE53 /* Hu.png */,
 				ECC392C41859714D007C56C4 /* AppDelegate.h */,
 				ECC392C51859714D007C56C4 /* AppDelegate.m */,
 				ECC392CD1859714D007C56C4 /* MainStoryboard.storyboard */,
@@ -134,6 +151,7 @@
 				ECC392BE1859714D007C56C4 /* InfoPlist.strings */,
 				ECC392C11859714D007C56C4 /* main.m */,
 				ECC392C31859714D007C56C4 /* syougi-Prefix.pch */,
+				ECA2D9F7186C08ED0018DE53 /* Unknown.jpg */,
 				ECC392C71859714D007C56C4 /* Default.png */,
 				ECC392C91859714D007C56C4 /* Default@2x.png */,
 				ECC392CB1859714D007C56C4 /* Default-568h@2x.png */,
@@ -236,6 +254,12 @@
 				ECC392CA1859714D007C56C4 /* Default@2x.png in Resources */,
 				ECC392CC1859714D007C56C4 /* Default-568h@2x.png in Resources */,
 				ECC392CF1859714D007C56C4 /* MainStoryboard.storyboard in Resources */,
+				ECC392F118597450007C56C4 /* 将棋盤.png in Resources */,
+				ECC392F31859864A007C56C4 /* ばん.png in Resources */,
+				ECA2D9F2186BED990018DE53 /* Hu.png in Resources */,
+				ECA2D9F4186BF0290018DE53 /* syougi.jpg in Resources */,
+				ECA2D9F6186BF37C0018DE53 /* To.png in Resources */,
+				ECA2D9F8186C08ED0018DE53 /* Unknown.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +477,7 @@
 				ECC392EC1859714E007C56C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECC392ED1859714E007C56C4 /* Build configuration list for PBXNativeTarget "syougiTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +486,7 @@
 				ECC392EF1859714E007C56C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

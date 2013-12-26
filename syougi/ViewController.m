@@ -9,16 +9,40 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+{
+    int exist;
+}
+
+
 
 @end
 
+
+
+
 @implementation ViewController
 
+-(IBAction)btn:(id)sender
+{
+    UIButton *btn = (UIButton *)sender;
+}
+
+- (IBAction)btn1:(id)sender {
+}
+
+- (IBAction)btn2:(id)sender {
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+UIImage *img = [UIImage imageNamed:@"To.png"];
+[btn1 setImage:img forState:UIControlStateNormal];
+
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {

@@ -61,6 +61,8 @@ IBOutlet UIButton *btn47;
 IBOutlet UIButton *btn48;
 IBOutlet UIButton *btn49;
 
+    int board[7][7];
+    UIButton *tagList[68];
 }
 
 -(IBAction)btn:(id)sender;
@@ -113,4 +115,6 @@ IBOutlet UIButton *btn49;
 - (IBAction)btn47:(id)sender;
 - (IBAction)btn48:(id)sender;
 - (IBAction)btn49:(id)sender;
+
+
 @end
